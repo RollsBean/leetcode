@@ -1,4 +1,4 @@
-package mergeSortedList_21;
+package a_21_mergeSortedList;
 
 /**
  * @author 景行

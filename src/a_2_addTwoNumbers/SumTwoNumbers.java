@@ -1,7 +1,9 @@
-package addTwoNumbers_2;
+package a_2_addTwoNumbers;
 
 /**
- * @description: 两数相加
+ * 两数相加
+ * <p/>
+ * 难度：中等
  * @author: 景行
  * @create: 2021/02/26
  **/

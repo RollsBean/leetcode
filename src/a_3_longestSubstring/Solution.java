@@ -1,10 +1,11 @@
-package longestSubstring_3;
+package a_3_longestSubstring;
 
 
 import java.util.HashSet;
 import java.util.LinkedList;
 
 /**
+ * 难度：中等
  * @description: 给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。
  * @author: 景行
  * @create: 2021/02/27

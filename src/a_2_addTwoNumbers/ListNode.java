@@ -1,4 +1,4 @@
-package addTwoNumbers_2;
+package a_2_addTwoNumbers;
 
 /**
  * @description:
