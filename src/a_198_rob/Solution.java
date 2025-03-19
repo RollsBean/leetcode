@@ -1,4 +1,4 @@
-package a_198_;
+package a_198_rob;
 
 /**
  * 198-打家劫舍
