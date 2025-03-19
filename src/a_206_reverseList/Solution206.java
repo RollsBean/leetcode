@@ -30,7 +30,7 @@ public class Solution206 {
         return next;
     }
 
-    public class ListNode {
+    private class ListNode {
         int val;
         ListNode next;
 
