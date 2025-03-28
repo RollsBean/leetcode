@@ -31,15 +31,6 @@ public class Solution {
         return true;
     }
 
-    private void recursive(ListNode head, ArrayDeque<ListNode> stack) {
-        if (head == null) {
-            return;
-        }
-        recursive(head.next, stack);
-        System.out.println(head.val);
-        stack.push(head);
-    }
-
     public static void main(String[] args) {
         Solution solution = new Solution();
         ListNode head = new ListNode(1);
