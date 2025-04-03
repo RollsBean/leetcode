@@ -1,5 +1,7 @@
 package algorithm.linkedList.a_206_reverseList;
 
+import algorithm.ListNode;
+
 /**
  * @author 景行
  * @date 2021/05/30
@@ -30,29 +32,12 @@ public class Solution206 {
         return next;
     }
 
-    private class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
-
     public static void main(String[] args) {
         Solution206 solution = new Solution206();
 
-        ListNode l3 = solution.new ListNode(3);
-        ListNode l2 = solution.new ListNode(2, l3);
-        ListNode l1 = solution.new ListNode(1, l2);
+        ListNode l3 = new ListNode(3);
+        ListNode l2 = new ListNode(2, l3);
+        ListNode l1 = new ListNode(1, l2);
         ListNode listNode = solution.reverseList(l1);
     }
 }

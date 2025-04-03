@@ -1,5 +1,7 @@
 package algorithm.array.a_21_mergeSortedList;
 
+import algorithm.ListNode;
+
 /**
  * @author 景行
  * @date 2021/05/16
@@ -49,30 +51,19 @@ public class Solution21New1 {
         return head;
     }
 
-
-
-    public class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-    }
-
-
     public static void main(String[] args) {
         test3();
     }
 
     private static void test3() {
         Solution21New1 solution21 = new Solution21New1();
-        Solution21New1.ListNode l3 = solution21.new ListNode(4);
-        Solution21New1.ListNode l2 = solution21.new ListNode(2, l3);
-        Solution21New1.ListNode l1 = solution21.new ListNode(1, l2);
+        ListNode l3 = new ListNode(4);
+        ListNode l2 = new ListNode(2, l3);
+        ListNode l1 = new ListNode(1, l2);
 
-        Solution21New1.ListNode r3 = solution21.new ListNode(4);
-        Solution21New1.ListNode r2 = solution21.new ListNode(3, r3);
-        Solution21New1.ListNode r1 = solution21.new ListNode(1, r2);
-        Solution21New1.ListNode mergedList = solution21.mergeTwoLists(l1, r1);
+        ListNode r3 = new ListNode(4);
+        ListNode r2 = new ListNode(3, r3);
+        ListNode r1 = new ListNode(1, r2);
+        ListNode mergedList = solution21.mergeTwoLists(l1, r1);
     }
 }

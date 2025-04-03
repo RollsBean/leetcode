@@ -1,5 +1,7 @@
 package algorithm.array.a_21_mergeSortedList;
 
+import algorithm.ListNode;
+
 /**
  * 21-合并两个有序链表
  * <p/>
@@ -70,16 +72,6 @@ public class Solution21 {
             mergedCur.next = l1;
         }
         return mergedList;
-    }
-
-
-
-    public class ListNode {
-      int val;
-      ListNode next;
-      ListNode() {}
-      ListNode(int val) { this.val = val; }
-      ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
 
     public static void main(String[] args) {
