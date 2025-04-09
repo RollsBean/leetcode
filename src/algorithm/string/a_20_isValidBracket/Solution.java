@@ -2,12 +2,14 @@ package algorithm.string.a_20_isValidBracket;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
+import java.util.Queue;
 
 public class Solution {
 
     public boolean isValid(String s) {
         char[] charArray = s.toCharArray();
         Deque<Character> deque = new ArrayDeque<>();
+        boolean result = true;
         for (int i = 0; i < charArray.length; i++) {
             char c = charArray[i];
             if (c == '(' || c == '{' || c == '[') {
@@ -15,31 +17,45 @@ public class Solution {
             } else if (c == ')' || c == '}' || c == ']') {
                 if (!deque.isEmpty()) {
                     Character peek = deque.peekLast();
-                    if (c == ')' && peek == '(') {
-                        deque.pollLast();
-                        continue;
+                    if (c == ')') {
+                        if (peek == '(') {
+                            deque.pollLast();
+                            continue;
+                        } else {
+                            result = false;
+                            break;
+                        }
                     }
-                    if (c == '}' && peek == '{') {
-                        deque.pollLast();
-                        continue;
+                    if (c == '}') {
+                        if (peek == '{') {
+                            deque.pollLast();
+                            continue;
+                        } else {
+                            result = false;
+                            break;
+                        }
                     }
-                    if (c == ']' && peek == '[') {
-                        deque.pollLast();
-                        continue;
+                    if (c == ']') {
+                        if (peek == '[') {
+                            deque.pollLast();
+                            continue;
+                        } else {
+                            result = false;
+                            break;
+                        }
                     }
-                    break;
                 } else {
-                    deque.addLast(c);
+                    result = false;
                     break;
                 }
             }
         }
-        return deque.isEmpty();
+        return result && deque.isEmpty();
     }
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        boolean valid = solution.isValid("(");
+        boolean valid = solution.isValid("[");
         System.out.println(valid);
     }
 }
