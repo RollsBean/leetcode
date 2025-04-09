@@ -82,33 +82,33 @@ public class Solution21 {
 
     private static void test1() {
         Solution21 solution21 = new Solution21();
-        ListNode l3 = solution21.new ListNode(7);
-        ListNode l2 = solution21.new ListNode(5, l3);
-        ListNode l1 = solution21.new ListNode(4, l2);
+        ListNode l3 = new ListNode(7);
+        ListNode l2 = new ListNode(5, l3);
+        ListNode l1 = new ListNode(4, l2);
 
-        ListNode r3 = solution21.new ListNode(6);
-        ListNode r2 = solution21.new ListNode(4, r3);
-        ListNode r1 = solution21.new ListNode(2, r2);
+        ListNode r3 = new ListNode(6);
+        ListNode r2 = new ListNode(4, r3);
+        ListNode r1 = new ListNode(2, r2);
         ListNode mergedList = solution21.mergeTwoLists(l1, r1);
     }
 
     private static void test2() {
         Solution21 solution21 = new Solution21();
-        ListNode l3 = solution21.new ListNode(4);
-        ListNode l2 = solution21.new ListNode(2, l3);
-        ListNode l1 = solution21.new ListNode(1, l2);
+        ListNode l3 = new ListNode(4);
+        ListNode l2 = new ListNode(2, l3);
+        ListNode l1 = new ListNode(1, l2);
 
-        ListNode r3 = solution21.new ListNode(4);
-        ListNode r2 = solution21.new ListNode(3, r3);
-        ListNode r1 = solution21.new ListNode(1, r2);
+        ListNode r3 = new ListNode(4);
+        ListNode r2 = new ListNode(3, r3);
+        ListNode r1 = new ListNode(1, r2);
         ListNode mergedList = solution21.mergeTwoLists(l1, r1);
     }
 
     private static void test3() {
         Solution21 solution21 = new Solution21();
-        ListNode l1 = solution21.new ListNode(1);
+        ListNode l1 = new ListNode(1);
 
-        ListNode r1 = solution21.new ListNode(2);
+        ListNode r1 = new ListNode(2);
         ListNode mergedList = solution21.mergeTwoLists(l1, r1);
     }
 
