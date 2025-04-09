@@ -3,7 +3,7 @@ package algorithm.dynamicProgramming.a_53_maxSubArray;
 /**
  * 53. 最大子数组和（连续元素）
  */
-public class Solution {
+class Solution {
 
     /**
      * dp，转移方程：定义 dp[i] 是第 i+1 个元素为结尾的数组的最大和，所以 dp[i] = Math.max(dp[i-1] + nums[i], nums[i])

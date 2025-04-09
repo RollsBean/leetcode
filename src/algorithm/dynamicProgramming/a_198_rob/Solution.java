@@ -3,7 +3,7 @@ package algorithm.dynamicProgramming.a_198_rob;
 /**
  * 198-打家劫舍
  */
-public class Solution {
+class Solution {
     /**
      * 空间复杂度 O(N)
      * @param nums

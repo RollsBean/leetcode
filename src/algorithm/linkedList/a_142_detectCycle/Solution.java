@@ -2,7 +2,7 @@ package algorithm.linkedList.a_142_detectCycle;
 
 import algorithm.ListNode;
 
-public class Solution {
+class Solution {
 
     /**
      *

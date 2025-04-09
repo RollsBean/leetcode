@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicReference;
 /**
  * 25:K 个一组反转链表
  */
-public class Solution {
+class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
         if (k == 1) {
             return head;

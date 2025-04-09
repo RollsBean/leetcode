@@ -7,7 +7,7 @@ import java.util.Map;
  * @author 景行
  * @date 2021/05/30
  **/
-public class LRUCache {
+class LRUCache {
 
     private static LinkedHashMap<Integer, Integer> map;
 

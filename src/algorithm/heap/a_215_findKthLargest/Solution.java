@@ -10,7 +10,7 @@ package algorithm.heap.a_215_findKthLargest;
  * @author 景行
  * @date 2021/06/06
  **/
-public class Solution {
+class Solution {
 
     Node<Integer> head = null;
     Node<Integer> tail = null;

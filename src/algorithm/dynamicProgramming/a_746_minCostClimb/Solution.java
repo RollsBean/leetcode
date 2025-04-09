@@ -10,7 +10,7 @@ package algorithm.dynamicProgramming.a_746_minCostClimb;
  *     4.初始化：已知的初始节点，比如第一个节点
  * <pre/>
  */
-public class Solution {
+class Solution {
     public int minCostClimbingStairs(int[] cost) {
         // 1.定义状态:到达第 i 个台阶的最小花费
         int length = cost.length;

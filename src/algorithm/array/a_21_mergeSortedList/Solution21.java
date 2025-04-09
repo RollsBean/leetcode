@@ -12,7 +12,7 @@ import algorithm.ListNode;
  * @author 景行
  * @date 2021/05/11
  **/
-public class Solution21 {
+class Solution21 {
 
     /**
      * 题目：

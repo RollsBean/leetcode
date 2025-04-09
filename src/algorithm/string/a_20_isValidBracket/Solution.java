@@ -2,9 +2,8 @@ package algorithm.string.a_20_isValidBracket;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.Queue;
 
-public class Solution {
+class Solution {
 
     public boolean isValid(String s) {
         char[] charArray = s.toCharArray();

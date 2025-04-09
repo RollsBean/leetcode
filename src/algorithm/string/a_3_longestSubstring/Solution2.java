@@ -6,7 +6,7 @@ import java.util.Set;
 /**
  * 3. 无重复的最长字串
  */
-public class Solution2 {
+class Solution2 {
 
     public int lengthOfLongestSubstring(String s) {
         char[] charArray = s.toCharArray();

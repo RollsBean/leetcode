@@ -2,7 +2,7 @@ package algorithm.linkedList.a_160_intersectionNode;
 
 import algorithm.ListNode;
 
-public class Solution2_twoPoint {
+class Solution2_twoPoint {
 
     /**
      * 双指针，如果链表 a = a1 + c,其中 a1 是不相交的部分，c 是相交部分， 链表 b = b1 + c，b1 是链表 b 不相交部分<br/>

@@ -2,7 +2,7 @@ package algorithm.heap.a_215_findKthLargest;
 
 import java.util.PriorityQueue;
 
-public class Solution2 {
+class Solution2 {
 
     public static void main(String[] args) {
         int kthLargest = Solution2.findKthLargest(new int[]{1,2,5,4,3}, 3);

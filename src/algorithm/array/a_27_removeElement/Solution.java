@@ -1,6 +1,6 @@
 package algorithm.array.a_27_removeElement;
 
-public class Solution {
+class Solution {
 
     /**
      * 双指针，快指针 read，慢指针 write，只要元素不等于 val 就给慢指针对应的元素赋值，read >= write

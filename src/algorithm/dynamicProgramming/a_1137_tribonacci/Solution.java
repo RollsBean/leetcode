@@ -1,6 +1,6 @@
 package algorithm.dynamicProgramming.a_1137_tribonacci;
 
-public class Solution {
+class Solution {
 
     public int tribonacci(int n) {
         // n = n + n+1 + n+2

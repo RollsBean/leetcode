@@ -4,7 +4,7 @@ import algorithm.ListNode;
 
 import java.util.HashSet;
 
-public class Solution {
+class Solution {
     /**
      * 暴力解
      * @param head

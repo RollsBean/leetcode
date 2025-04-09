@@ -2,7 +2,7 @@ package algorithm.linkedList.a_160_intersectionNode;
 
 import algorithm.ListNode;
 
-public class Solution {
+class Solution {
     /**
      * 计算两个链表长度，对齐长度依次遍历
      * @param headA 不为空

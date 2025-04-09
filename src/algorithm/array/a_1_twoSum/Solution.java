@@ -6,7 +6,7 @@ import java.util.HashMap;
 /**
  * 1. 两数之和，返回相加等于 target 的数组下标（从小到大顺序排列）
  */
-public class Solution {
+class Solution {
 
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> map = new HashMap<>(nums.length + 1);

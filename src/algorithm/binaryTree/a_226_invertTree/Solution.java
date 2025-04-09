@@ -6,7 +6,7 @@ import algorithm.binaryTree.TreeNode;
  * @author 景行
  * @date 2021/05/30
  **/
-public class Solution {
+class Solution {
 
     /**
      * 翻转二叉树

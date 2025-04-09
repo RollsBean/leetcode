@@ -1,6 +1,6 @@
 package algorithm.dynamicProgramming.a_121_maxProfit;
 
-public class Solution {
+class Solution {
 
     /**
      * 121. 买卖股票的最佳时机:动态规划

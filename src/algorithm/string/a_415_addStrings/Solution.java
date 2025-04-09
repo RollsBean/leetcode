@@ -1,6 +1,6 @@
 package algorithm.string.a_415_addStrings;
 
-public class Solution {
+class Solution {
 
     public String addStrings(String num1, String num2) {
         char[] longArray;

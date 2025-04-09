@@ -1,6 +1,6 @@
 package algorithm.array.a_209_minSubArrayLen;
 
-public class Solution {
+class Solution {
 
     public int minSubArrayLen(int target, int[] nums) {
         if (nums.length == 1) {

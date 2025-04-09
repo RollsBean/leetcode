@@ -4,7 +4,7 @@ import algorithm.ListNode;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class Solution {
+class Solution {
 
     public ListNode removeNthFromEnd(ListNode head, int n) {
         AtomicInteger atomicInteger = new AtomicInteger(0);

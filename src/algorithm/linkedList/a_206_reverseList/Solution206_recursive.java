@@ -5,7 +5,7 @@ import algorithm.ListNode;
 /**
  * 递归
  */
-public class Solution206_recursive {
+class Solution206_recursive {
 
     public ListNode reverseList(ListNode head) {
         if (head == null) {

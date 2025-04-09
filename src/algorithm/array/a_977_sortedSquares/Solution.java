@@ -1,6 +1,6 @@
 package algorithm.array.a_977_sortedSquares;
 
-public class Solution {
+class Solution {
 
     /**
      * 先找到最低点，也就是正负交界的位置，然后两个指针依次 set 较小值到新数组中，需要

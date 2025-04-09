@@ -9,7 +9,7 @@ import algorithm.ListNode;
  * @author: 景行
  * @create: 2021/02/26
  **/
-public class SumTwoNumbers {
+class SumTwoNumbers {
 
     /**
      * 题目：

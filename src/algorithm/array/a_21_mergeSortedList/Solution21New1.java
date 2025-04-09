@@ -6,7 +6,7 @@ import algorithm.ListNode;
  * @author 景行
  * @date 2021/05/16
  **/
-public class Solution21New1 {
+class Solution21New1 {
 
     /**
      * 思路：递归的方式求解

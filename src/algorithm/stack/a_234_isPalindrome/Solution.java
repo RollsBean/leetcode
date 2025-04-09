@@ -7,7 +7,7 @@ import java.util.ArrayDeque;
 /**
  * 是否是回文链表
  */
-public class Solution {
+class Solution {
 
     /**
      *

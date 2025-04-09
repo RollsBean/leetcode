@@ -5,7 +5,7 @@ import algorithm.ListNode;
 /**
  * 双指针，记录 prev 节点，循环到最后一个节点设置 cur.next = pre 即可
  */
-public class Solution206_2 {
+class Solution206_2 {
 
     public ListNode reverseList(ListNode head) {
         // 双指针 当前节点 头节点

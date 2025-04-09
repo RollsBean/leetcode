@@ -6,7 +6,7 @@ import algorithm.ListNode;
  * @author 景行
  * @date 2021/05/30
  **/
-public class Solution206 {
+class Solution206 {
 
     /**
      * 反转链表

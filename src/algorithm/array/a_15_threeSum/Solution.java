@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * 15. 三数之和
  */
-public class Solution {
+class Solution {
 
     /**
      * 暴力解法-三循环 - 无法去重

@@ -10,7 +10,7 @@ import java.util.LinkedList;
  * @author: 景行
  * @create: 2021/02/27
  **/
-public class Solution {
+class Solution {
 
     /**
      * 思路：
