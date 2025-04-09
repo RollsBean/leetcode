@@ -1,4 +1,4 @@
-package algorithm.linkedList.a_15_threeSum;
+package algorithm.array.a_15_threeSum;
 
 import java.util.*;
 
