@@ -1,4 +1,4 @@
-package algorithm.array.a_53_maxSubArray;
+package algorithm.dynamicProgramming.a_53_maxSubArray;
 
 /**
  * 53. 最大子数组和（连续元素）
