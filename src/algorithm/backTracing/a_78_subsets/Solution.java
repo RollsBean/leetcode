@@ -42,7 +42,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        int[] nums = {1, 3, 2};
+        int[] nums = {1, 2, 3};
         Solution solution = new Solution();
         List<List<Integer>> subsets = solution.subsets(nums);
         System.out.println(subsets);
