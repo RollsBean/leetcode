@@ -21,7 +21,6 @@ class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
         int startIdx = 0;
-//        result.add(new ArrayList<>(0));
         List<Integer> tmp = new ArrayList<>();
         backtracking(nums, startIdx, result, tmp);
         return result;
@@ -29,11 +28,7 @@ class Solution {
 
     private void backtracking(int[] nums, int startIdx, List<List<Integer>> result, List<Integer> tmp) {
         // 回溯步骤：
-        // 1. 终止条件-set
-        if (tmp.size() == nums.length) {
-            result.add(new ArrayList<>(tmp));
-            return;
-        }
+        // 1. 终止条件-所有条件都满足，直接 set
         result.add(new ArrayList<>(tmp));
 
         for (int i = startIdx; i < nums.length; i++) {
