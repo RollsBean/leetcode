@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 131. 分割回文串
  */
-public class Solution {
+class Solution {
 
     public List<List<String>> partition(String s) {
         // 切割问题一般可以回溯法解决，回文串一般通过dp查
