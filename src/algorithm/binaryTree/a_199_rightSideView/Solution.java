@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  * 199. 二叉树的右视图
- * <p/>层序遍历即可
+ * <p>层序遍历即可
  */
 class Solution {
 
