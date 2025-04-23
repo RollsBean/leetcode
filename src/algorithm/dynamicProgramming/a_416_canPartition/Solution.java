@@ -26,8 +26,14 @@ class Solution {
         }
         int half = total/2;
         boolean[][] dp = new boolean[nums.length][half+1];
+        int maxNum = 0;
         for (int i = 0; i < nums.length; i++) {
             dp[i][0] = true;
+            maxNum = Math.max(maxNum, nums[i]);
+        }
+        if (maxNum > half) {
+            // 如果数组中最大的元素大于 half，则total - maxNum < half，其他所有元素和小于 half，不会等于 half
+            return false;
         }
         if (nums[0] <= half) {
             dp[0][nums[0]] = true;
