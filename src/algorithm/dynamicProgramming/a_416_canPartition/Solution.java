@@ -1,6 +1,5 @@
 package algorithm.dynamicProgramming.a_416_canPartition;
 
-import java.util.Arrays;
 
 /**
  * 416. 分割等和子集
@@ -30,17 +29,16 @@ class Solution {
         for (int i = 0; i < nums.length; i++) {
             dp[i][0] = true;
         }
-        for (int i = 0; i < nums.length; i++) {
+        if (nums[0] <= half) {
+            dp[0][nums[0]] = true;
+        }
+        for (int i = 1; i < nums.length; i++) {
             for (int j = 1; j <= half; j++) {
-                if (i == 0) {
-                    dp[0][j] = nums[0] == half;
+                if (nums[i] <= j) {
+                    // dp[i - 1][j] 不放 i 时是否存在和==j或者 放 i 了，所以0～i-1存在和等于和-i，即dp[i - 1][half - nums[i]] = true
+                    dp[i][j] = dp[i - 1][j] | dp[i - 1][j - nums[i]];
                 } else {
-                    if (nums[i] <= j) {
-                        // dp[i - 1][j] 不放 i 时是否存在和==j或者 放 i 了，所以0～i-1存在和等于和-i，即dp[i - 1][half - nums[i]] = true
-                        dp[i][j] = dp[i - 1][j] | dp[i - 1][j - nums[i]];
-                    } else {
-                        dp[i][j] = dp[i - 1][j];
-                    }
+                    dp[i][j] = dp[i - 1][j];
                 }
             }
         }
